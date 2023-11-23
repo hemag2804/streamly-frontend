@@ -1,0 +1,11 @@
+reference id
+vmtjlfuacxojiaedkusv
+
+npx supabase gen types typescript --project-id vmtjlfuacxojiaedkusv --schema public > types_db.ts
+
+2.16.39
+add github login
+
+
+
+stripe listen --forward-to localhost:3000/api/webhook
